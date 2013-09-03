@@ -8,5 +8,8 @@ Email
     user UserId Maybe
     verkey Text Maybe
     UniqueEmail email
-
+Article
+    title Text
+    content Html
+    deriving
  -- By default this file is used in Model.hs (which is imported by Foundation.hs)

@@ -6,3 +6,6 @@
 
 / HomeR GET POST
 /echo/#Text EchoR GET
+/mirror MirrorR GET POST
+/blog BlogR GET POST
+/blog/#ArticleId ArticleR GET

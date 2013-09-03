@@ -1,0 +1,13 @@
+<h1>Articles
+$if null articles
+    <p> There are no articles in the blog
+$else
+    <ul>
+        $forall Entity articleId article <- articles
+            <li>
+                <a href=@{ArticleR articleId} > #{articleTitle article}
+<hr>
+<form method=post enctype=#{enctype}>
+    ^{articleWidget}
+    <div>
+        <input type=submit value="Post New Article">

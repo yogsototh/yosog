@@ -1,0 +1,5 @@
+<h1> #{articleTitle article}
+<article> #{articleContent article}
+<hr>
+<a href=@{BlogR}>
+    Return
