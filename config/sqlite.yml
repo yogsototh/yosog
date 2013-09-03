@@ -1,0 +1,20 @@
+Default: &defaults
+  database: yosog.sqlite3
+  poolsize: 10
+
+Development:
+  <<: *defaults
+
+Testing:
+  database: yosog_test.sqlite3
+  <<: *defaults
+
+Staging:
+  database: yosog_staging.sqlite3
+  poolsize: 100
+  <<: *defaults
+
+Production:
+  database: yosog_production.sqlite3
+  poolsize: 100
+  <<: *defaults
