@@ -5,3 +5,4 @@
 /robots.txt RobotsR GET
 
 / HomeR GET POST
+/echo/#String EchoR GET
